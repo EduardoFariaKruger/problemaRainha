@@ -33,7 +33,7 @@ void initializeBoard(int T[N][N])
 void printBoard(int T[N][N])
 {
     printf("\e[1;1H\e[2J"); // comando para limpar o terminal antes de fazer a próxima impressão 
-    usleep(3000000); // pausa de 30ms
+    usleep(300000); // pausa de 300ms
 
     /*
      * loops que percorrem toda a matriz verificando se a casa esta ocupada por uma rainha
