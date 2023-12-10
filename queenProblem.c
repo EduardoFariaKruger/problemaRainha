@@ -44,7 +44,7 @@ void printBoard(int T[N][N])
         {
             if(T[i][j] == 1)
             {
-                printf(" Q ");
+                printf(" ♛ ");
             }
             else
             {
