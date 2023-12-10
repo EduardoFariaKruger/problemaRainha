@@ -5,3 +5,17 @@ Este tipo de problema não tem uma solução analítica, é preciso usar força-
 uma posição no tabuleiro de xadrez que contenha as 8 rainhas onde cada uma não esteja atacada por outra
 
 ## Exemplos
+
+### Errado
+![exemploErrado.](/imagemExemploErrado.PNG)
+
+Nesse exemplo, percebe-se que as duas rainhas estão na mesma diagonal, "atacando" uma a outra, logo elas não obedecem a regra proposta pelo problema.
+
+### Certo
+
+![exemploCerto.](/imagemExemploCerto.PNG)
+
+Nesse exemplo, as duas rainhas não estão em casas atacadas pela outra, então elas obedecem a regra proposta pelo problema.
+
+## Resultado
+
