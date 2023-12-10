@@ -37,7 +37,7 @@ void printBoard(int T[N][N])
             }
             else
             {
-                print("@");
+                printf("@");
             }
         }
         printf("\n");
