@@ -19,3 +19,11 @@ Nesse exemplo, as duas rainhas não estão em casas atacadas pela outra, então 
 
 ## Resultado
 
+#### A resposta do algoritmo pelo terminal:
+
+![terminal.](/resultadoTerminal.PNG)
+
+#### Usando a ferramenta de edição de tabuleiro do site lichess.org para melhor visualização:
+
+![resultado.](/resultado.PNG)
+
