@@ -6,7 +6,7 @@
 
 int isContained(int i, int j)
 {
-    return ((i >= 0 && i < N) && (j >= 0 && j < N))
+    return ((i >= 0 && i < N) && (j >= 0 && j < N));
 }
 
 void initializeBoard(int T[N][N])
