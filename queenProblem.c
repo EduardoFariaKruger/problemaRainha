@@ -30,11 +30,11 @@ void printBoard(int T[N][N])
         {
             if(T[i][j] == 1)
             {
-                printf("Q");
+                printf(" Q ");
             }
             else
             {
-                printf("@");
+                printf(" + ");
             }
         }
         printf("\n");
@@ -98,6 +98,7 @@ int try(int T[N][N], int column)
         if (isSafe(T, i, column))
         {
             T[i][column] = 1;
+            printBoard(T);
 
             isit = isit || try(T, column + 1);
 
