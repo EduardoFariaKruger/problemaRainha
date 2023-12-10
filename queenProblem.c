@@ -22,11 +22,8 @@ void initializeBoard(int T[N][N])
 
 void printBoard(int T[N][N])
 {
-    usleep(300000); // faz uma pequena pausa de 3ms para imprimir o próximo tabuleiro, já que a tendência desse algoritmo é fazer várias e várias impressões
+    sleep(1); // faz uma pequena pausa de 3ms para imprimir o próximo tabuleiro, já que a tendência desse algoritmo é fazer várias e várias impressões
     printf("\e[1;1H\e[2J"); // comando para limpar o terminal antes de fazer a próxima impressão 
-    /*
-        percorre todas as posições do tabuleiro, verificando se a casa possui ou não uma rainha
-    */
     for (int i = 0; i < N; i++)
     {
         for(int j = 0; j < N; j++)
