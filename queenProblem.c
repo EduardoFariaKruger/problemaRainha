@@ -109,6 +109,7 @@ int try(int T[N][N], int column)
             }
         }
     }
+    printBoard(T);
     return isit;
 }
 
