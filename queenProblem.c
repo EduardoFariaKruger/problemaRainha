@@ -98,11 +98,15 @@ int try(int T[N][N], int column)
         if (isSafe(T, i, column))
         {
             T[i][column] = 1;
-            printBoard(T);
-
             isit = isit || try(T, column + 1);
-
-            T[i][column] = 0;
+            if (isit)
+            {
+                return 1;
+            }
+            else
+            {
+                T[i][column] = 0;
+            }
         }
     }
     return isit;
