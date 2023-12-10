@@ -22,7 +22,7 @@ void initializeBoard(int T[N][N])
 
 void printBoard(int T[N][N])
 {
-    sleep(1); // faz uma pequena pausa de 3ms para imprimir o próximo tabuleiro, já que a tendência desse algoritmo é fazer várias e várias impressões
+    usleep(300000); // faz uma pequena pausa de 3ms para imprimir o próximo tabuleiro, já que a tendência desse algoritmo é fazer várias e várias impressões
     printf("\e[1;1H\e[2J"); // comando para limpar o terminal antes de fazer a próxima impressão 
     for (int i = 0; i < N; i++)
     {
@@ -87,6 +87,7 @@ int isSafe(int T[N][N], int row, int column)
 
 int try(int T[N][N], int column)
 {
+    printBoard(T);
     if(column == N)
     {
         printBoard(T);
@@ -109,7 +110,6 @@ int try(int T[N][N], int column)
             }
         }
     }
-    printBoard(T);
     return isit;
 }
 
