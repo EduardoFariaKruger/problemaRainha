@@ -185,13 +185,13 @@ int main()
     /*caso o problema tenha sido resolvido, imprima que a solucao foi encontrada*/
     if(solve() == 1)
     {
-        printf("\nsolução encontrada");
+        printf("solução encontrada\n");
     }
 
     /*caso contrario, imprima que nao existe uma solucao para o problema das 8 rainhas*/
     else
     {
-        printf("\nnão existe solução");
+        printf("não existe solução\n");
     }
     return 0;
 }
